@@ -112,7 +112,6 @@ Quantidade de instrucoes: 12
 ```
 
 ---
-
 ## 👤 Autor
 
 **Matrícula:** 25201228  

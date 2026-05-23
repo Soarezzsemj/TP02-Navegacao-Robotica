@@ -3,7 +3,7 @@
 #include <math.h>
 #include "caminho.h"
 
-Posicao *CriarPosicao(int x, int y) {
+static Posicao *CriarPosicao(int x, int y) {
     Posicao *pos = malloc(sizeof(Posicao));
 
     if (!pos) {
@@ -17,7 +17,7 @@ Posicao *CriarPosicao(int x, int y) {
     return pos;
 }
 
-Comando *CriarComando(char direcao) {
+static Comando *CriarComando(char direcao) {
     Comando *cmd = malloc(sizeof(Comando));
 
     if (!cmd) {
